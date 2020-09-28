@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/principal"
+    android:background="#5FF3D0F8"
+    tools:context=".Principal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="166dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo1" />
+
+    <ImageButton
+        android:id="@+id/callbotao"
+        android:layout_width="184dp"
+        android:layout_height="172dp"
+        android:layout_marginBottom="340dp"
+        android:contentDescription="@string/callbotao"
+        android:foregroundGravity="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/call" />
+
+    <TextView
+        android:id="@+id/endDel"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/endDel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/botaomaria"
+        android:layout_width="319dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="200dp"
+        android:text="@string/botaomaria"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
